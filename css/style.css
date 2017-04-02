@@ -1,0 +1,18 @@
+#main {
+    margin: 100px;
+    border-radius: 100%;
+    background-color: #64a8f2;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    transition: 0.3s ease-out;
+    z-index: 1;
+}
+#bird {
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    margin: 200px;
+    top: 0;
+    transition: 0.3s ease-out;
+}
